@@ -158,7 +158,7 @@ class EPONPortAnalyzer:
         
         self.device_text = scrolledtext.ScrolledText(device_frame, height=6, wrap=tk.WORD, font=("Consolas", 10))
         self.device_text.grid(row=0, column=0, sticky="nsew")
-        #self.device_text.insert(tk.END, "山下湖-172.10.1.26\n璜山-172.10.1.16\n中心12F-7606-5-双向-172.10.1.1")
+        
         
         # SSH认证区域
         auth_frame = tk.LabelFrame(ssh_content, text="SSH认证信息", padx=10, pady=10)
